@@ -1,0 +1,22 @@
+{
+  "id": "colombier-photos",
+  "question": "La plage de Colombier, c'est comment ?",
+  "theme": "light",
+  "statut_avant": "En ligne",
+  "statut_apres": "En ligne",
+  "horloge_appareil": {
+    "fuseau": "America/St_Barthelemy",
+    "date": "Fri Nov 06 2026 10:41:41 GMT-0400 (heure normale de l’Atlantique)",
+    "ile": {
+      "horloge": "10h41",
+      "jour": "vendredi"
+    },
+    "vous": {
+      "horloge": "10h41",
+      "jour": "vendredi"
+    }
+  },
+  "images": 398,
+  "ralenti": 4,
+  "quand": "2026-11-06T14:41:41.662Z"
+}
