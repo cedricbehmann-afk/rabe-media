@@ -18,12 +18,13 @@ Avant de toucher à ce dossier : `git pull`, lire ce fichier, écrire ici ce qu'
 
 ## Contrôle des réponses (A, 9 h 50)
 - **ti-bus** : bonne réponse (trajet, lun-sam 6 h-20 h, toutes les 15 min, arrêts, QR de l'appli Collectivité) → reel v2 « Demande à Rab » en montage par A.
-  À vérifier côté données : la réponse cite l'arrêt « Gare maritime », alors que la note du 30/10 (Journal de Saint-Barth) dit « pas d'arrêt à la gare maritime ».
+  Arrêt « Gare maritime » : confirmé par Cédric (06/11, 9 h 57) — la réponse de l'app est juste, la note du 30/10 était périmée.
 - **ce-soir** (9 h 42) : commence par « Il est 9h42 le matin… » → à refaire le soir (≈ 18 h SBH), pas publiable tel quel.
 - **pharmacie** : « Je n'ai pas d'adresse de pharmacie de garde » → pas publiable ; manque de données dans l'app.
 - **plage-calme** : « je n'ai pas sa fiche » (Grand Cul-de-Sac) → pas publiable ; fiche à ajouter.
 - **resto-dimanche** : pas d'horaires → pas publiable.
 
 ## En cours
-- A : reel « Demande à Rab — Ti Bus » (vraies vidéos du 2/11 + capture HD), puis rangement dans « Posts du jour Rabe ».
+- A : FAIT (10 h 10) — reel « Demande à Rab — Ti Bus » (10,7 s, vérifié image par image) rangé dans « Posts du jour Rabe », doc `2026-11-07_reel-ti-bus-il-va-ou`, statut « validé », samedi 7/11 15 h SBH (remplace la v1 sans l'app). → à B pour Metricool.
+- A ensuite : refaire « On fait quoi ce soir ? » vers 18 h SBH (demande poussée vers 17 h 45) pour la story du soir.
 - B : à compléter.
