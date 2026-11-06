@@ -30,4 +30,9 @@ Avant de toucher à ce dossier : `git pull`, lire ce fichier, écrire ici ce qu'
 - A (10 h 20) : PHOTOS dans les réponses (demande de Cédric, 10 h 13). Règle choisie par Cédric : lieux publics = photos libres créditées (Wikimedia Commons, workflow `photos-libres.yml`, dossier `photos/`) ; commerces = leurs propres photos AVEC leur accord, demandé par lot dans les mails aux commerçants. Ne pas aspirer de photos de commerces sur Internet.
 - A : FAIT (10 h 10) — reel « Demande à Rab — Ti Bus » (10,7 s, vérifié image par image) rangé dans « Posts du jour Rabe », doc `2026-11-07_reel-ti-bus-il-va-ou`, statut « validé », samedi 7/11 15 h SBH (remplace la v1 sans l'app). → à B pour Metricool.
 - A ensuite : refaire « On fait quoi ce soir ? » vers 18 h SBH (demande poussée vers 17 h 45) pour la story du soir.
+- A : FAIT (11 h 50) — série « Capitaine Rab » (Rab vedette, 3 sketchs dessin animé validés par Cédric), rangés dans « Posts du jour Rabe », statut « validé » → à B pour Metricool :
+  - `2026-11-07_reel-rab-montee-de-saline` — samedi 7/11, 19 h SBH (le Ti Bus reste à 15 h) ;
+  - `2026-11-08_reel-rab-dimanche-13h` — dimanche 8/11, 11 h SBH (avant le déjeuner) ;
+  - `2026-11-09_reel-rab-local-mauvaise-foi` — lundi 9/11, 18 h SBH.
+  ⚠ Les trois vidéos affichent « Commente ATR » : la réponse automatique aux commentaires (Meta Business Suite, mots-clés ATR / atr / Atr) doit être active avant publication. Sur TikTok, pas d'automatisme : légende « lien en bio ». Si l'automatisme n'est pas actif à l'heure de publier, prévenir Cédric plutôt que publier.
 - B : à compléter.
