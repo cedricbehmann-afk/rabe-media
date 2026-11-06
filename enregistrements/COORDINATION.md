@@ -25,6 +25,8 @@ Avant de toucher à ce dossier : `git pull`, lire ce fichier, écrire ici ce qu'
 - **resto-dimanche** : pas d'horaires → pas publiable.
 
 ## En cours
+- A (10 h 20) : 3 trous de l'app comblés dans le dépôt assistant-rabe (classement : pharmacie de garde, plage calme, resto ouvert dimanche midi) — chaîne de contrôles en cours avant push.
+- A (10 h 20) : PHOTOS dans les réponses (demande de Cédric, 10 h 13). Règle choisie par Cédric : lieux publics = photos libres créditées (Wikimedia Commons, workflow `photos-libres.yml`, dossier `photos/`) ; commerces = leurs propres photos AVEC leur accord, demandé par lot dans les mails aux commerçants. Ne pas aspirer de photos de commerces sur Internet.
 - A : FAIT (10 h 10) — reel « Demande à Rab — Ti Bus » (10,7 s, vérifié image par image) rangé dans « Posts du jour Rabe », doc `2026-11-07_reel-ti-bus-il-va-ou`, statut « validé », samedi 7/11 15 h SBH (remplace la v1 sans l'app). → à B pour Metricool.
 - A ensuite : refaire « On fait quoi ce soir ? » vers 18 h SBH (demande poussée vers 17 h 45) pour la story du soir.
 - B : à compléter.

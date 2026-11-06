@@ -1,0 +1,43 @@
+# Photos LIBRES (Wikimedia Commons) pour les lieux publics d'Assistant Rabe — règle de Cédric du 06/11/2026.
+# Se lance quand une liste de fiches est poussée dans photos/demandes/ ; pousse photos/sorties/<nom>/.
+name: Photos libres
+
+on:
+  push:
+    branches: [main]
+    paths: ['photos/demandes/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: photos-libres
+  cancel-in-progress: false
+
+jobs:
+  chercher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Chercher
+        run: |
+          cd photos
+          for f in $(git diff --relative --name-only HEAD~1 HEAD -- demandes/ 2>/dev/null; [ "${{ github.event_name }}" = "workflow_dispatch" ] && ls demandes/*.json); do
+            [ -f "$f" ] || continue
+            python3 chercher.py "$f" "sorties/$(basename "$f" .json)"
+          done
+      - name: Pousser
+        run: |
+          git config user.name "Claude" && git config user.email "noreply@anthropic.com"
+          [ -d photos/sorties ] || { echo "Aucune sortie"; exit 1; }
+          git add photos/sorties
+          git diff --cached --quiet && exit 0
+          git commit -m "Photos libres trouvées [skip ci]"
+          git pull --rebase origin main && git push origin HEAD:main
