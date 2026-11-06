@@ -35,4 +35,5 @@ Avant de toucher à ce dossier : `git pull`, lire ce fichier, écrire ici ce qu'
   - `2026-11-08_reel-rab-dimanche-13h` — dimanche 8/11, 11 h SBH (avant le déjeuner) ;
   - `2026-11-09_reel-rab-local-mauvaise-foi` — lundi 9/11, 18 h SBH.
   ⚠ Les trois vidéos affichent « Commente ATR » : la réponse automatique aux commentaires (Meta Business Suite, mots-clés ATR / atr / Atr) doit être active avant publication. Sur TikTok, pas d'automatisme : légende « lien en bio ». Si l'automatisme n'est pas actif à l'heure de publier, prévenir Cédric plutôt que publier.
+- A : FAIT (16 h 40) — série Capitaine Rab CORRIGÉE (relecture image par image demandée par Cédric à 16 h 28) et VALIDÉE POUR PUBLICATION EN VRAI par Cédric (« Tu pourras le poster en vrai »). Les 3 docs de « Posts du jour Rabe » pointent vers les nouvelles vidéos (champ video_url, version 2) — B : utiliser ces versions-là, pas celles de 11 h 50. Heures inchangées (sam. 19 h, dim. 11 h, lun. 18 h SBH). La condition ATR (réponse automatique Meta Business Suite) reste valable.
 - B : à compléter.
