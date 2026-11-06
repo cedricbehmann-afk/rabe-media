@@ -35,7 +35,7 @@ jobs:
       - name: Enregistrer
         run: |
           cd enregistrements
-          for f in $(git diff --name-only HEAD~1 HEAD -- demandes/ 2>/dev/null; [ "${{ github.event_name }}" = "workflow_dispatch" ] && ls demandes/*.json); do
+          for f in $(git diff --relative --name-only HEAD~1 HEAD -- demandes/ 2>/dev/null; [ "${{ github.event_name }}" = "workflow_dispatch" ] && ls demandes/*.json); do
             [ -f "$f" ] || continue
             n=$(basename "$f" .json)
             node enregistrer.cjs "$f" "sorties/$n"
@@ -43,6 +43,7 @@ jobs:
       - name: Pousser les vidéos
         run: |
           git config user.name "Claude" && git config user.email "noreply@anthropic.com"
+          [ -d enregistrements/sorties ] || { echo "Aucune vidéo produite"; exit 1; }
           git add enregistrements/sorties
           git diff --cached --quiet && exit 0
           git commit -m "Enregistrements de l'app [skip ci]"
