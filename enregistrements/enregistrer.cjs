@@ -49,9 +49,10 @@ async function une(b, d) {
   await pause(2500 * LENT);
   filme = false; await boucle;
   await p.screenshot({ path: path.join(dir, 'final.png') });
+  const horlogeAppareil = await p.evaluate(() => { let e = null; try { e = window.RabeDirect && window.RabeDirect.etat(); } catch (x) {} return { fuseau: Intl.DateTimeFormat().resolvedOptions().timeZone, date: new Date().toString(), ile: e && { horloge: e.horloge, jour: e.jour }, vous: e && e.vous && { horloge: e.vous.horloge, jour: e.vous.jour } }; }).catch(() => null);
   const statutFin = (await p.textContent('#chat-status').catch(() => '')) || '';
   fs.writeFileSync(path.join(dir, 'reponse.txt'), (await zone()).slice(avant.length - 0));
-  fs.writeFileSync(path.join(dir, 'infos.json'), JSON.stringify({ ...d, statut_avant: statut.trim(), statut_apres: statutFin.trim(), images: frames.length, ralenti: LENT, quand: new Date().toISOString() }, null, 2));
+  fs.writeFileSync(path.join(dir, 'infos.json'), JSON.stringify({ ...d, statut_avant: statut.trim(), statut_apres: statutFin.trim(), horloge_appareil: horlogeAppareil, images: frames.length, ralenti: LENT, quand: new Date().toISOString() }, null, 2));
   // assemblage : chaque image dure jusqu'à la suivante, sortie 30 i/s
   let list = '';
   frames.forEach((f, i) => { const fn = path.join(dir, 'frames', String(i).padStart(5, '0') + '.jpg'); fs.writeFileSync(fn, Buffer.from(f.data, 'base64'));
