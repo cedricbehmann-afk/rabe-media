@@ -49,6 +49,14 @@ async function une(b, d) {
   await pause(2500 * LENT);
   filme = false; await boucle;
   await p.screenshot({ path: path.join(dir, 'final.png') });
+  // photos des lieux : on fait défiler jusqu'à la première bande et on vérifie que les images se chargent
+  const bande = await p.$('.a-photos');
+  if (bande) {
+    await bande.scrollIntoViewIfNeeded(); await pause(3000);
+    const charge = await p.$$eval('.a-photos img', (im) => im.map((i) => ({ src: i.src.slice(0, 90), ok: i.complete && i.naturalWidth > 0 })));
+    fs.writeFileSync(path.join(dir, 'photos.json'), JSON.stringify(charge, null, 1));
+    await p.screenshot({ path: path.join(dir, 'photos.png') });
+  }
   const horlogeAppareil = await p.evaluate(() => { let e = null; try { e = window.RabeDirect && window.RabeDirect.etat(); } catch (x) {} return { fuseau: Intl.DateTimeFormat().resolvedOptions().timeZone, date: new Date().toString(), ile: e && { horloge: e.horloge, jour: e.jour }, vous: e && e.vous && { horloge: e.vous.horloge, jour: e.vous.jour } }; }).catch(() => null);
   const statutFin = (await p.textContent('#chat-status').catch(() => '')) || '';
   fs.writeFileSync(path.join(dir, 'reponse.txt'), (await zone()).slice(avant.length - 0));
