@@ -1,7 +1,0 @@
-[
-  { "id": "ti-bus", "question": "Le Ti Bus, il passe où et à quelle heure ?", "theme": "light" },
-  { "id": "ce-soir", "question": "On fait quoi ce soir ?", "theme": "dark" },
-  { "id": "pharmacie", "question": "Pharmacie de garde ce week-end ?", "theme": "light" },
-  { "id": "plage-calme", "question": "Une plage calme sans vent aujourd'hui ?", "theme": "light" },
-  { "id": "resto-dimanche", "question": "Un resto ouvert dimanche midi à Gustavia ?", "theme": "light" }
-]
