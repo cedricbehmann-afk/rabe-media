@@ -1,0 +1,6 @@
+[
+  { "id": "pharmacie", "question": "Pharmacie de garde ce week-end ?", "theme": "light" },
+  { "id": "plage-calme", "question": "Une plage calme sans vent aujourd'hui ?", "theme": "light" },
+  { "id": "resto-dimanche", "question": "Un resto ouvert dimanche midi à Gustavia ?", "theme": "light" },
+  { "id": "colombier-photos", "question": "La plage de Colombier, c'est comment ?", "theme": "light" }
+]

@@ -1,0 +1,1379 @@
+[
+{
+"i": "geographie--aeroport",
+"n": "Aéroport",
+"c": "Géographie",
+"gps": [
+17.90429,
+-62.84405
+]
+},
+{
+"i": "geographie--anse-des-cayes",
+"n": "Anse des Cayes",
+"c": "Géographie",
+"gps": [
+17.91095,
+-62.84712
+]
+},
+{
+"i": "geographie--anse-des-lezards",
+"n": "Anse des Lézards",
+"c": "Géographie",
+"gps": [
+17.91652,
+-62.84634
+]
+},
+{
+"i": "geographie--anse-du-gouverneur",
+"n": "Anse du Gouverneur",
+"c": "Géographie",
+"gps": [
+17.88371,
+-62.834
+]
+},
+{
+"i": "geographie--barriere-des-quatre-vents",
+"n": "Barrière des Quatre Vents",
+"c": "Géographie",
+"gps": [
+17.9103,
+-62.8172
+]
+},
+{
+"i": "geographie--camaruche",
+"n": "Camaruche",
+"c": "Géographie",
+"gps": [
+17.90763,
+-62.8179
+]
+},
+{
+"i": "geographie--carenage",
+"n": "Carénage",
+"c": "Géographie",
+"gps": [
+17.8976,
+-62.8385
+]
+},
+{
+"i": "geographie--colombier",
+"n": "Colombier",
+"c": "Géographie",
+"gps": [
+17.9184,
+-62.86206
+]
+},
+{
+"i": "geographie--corossol",
+"n": "Corossol",
+"c": "Géographie",
+"gps": [
+17.90854,
+-62.85585
+]
+},
+{
+"i": "geographie--devet",
+"n": "Devet",
+"c": "Géographie",
+"gps": [
+17.90183,
+-62.80505
+]
+},
+{
+"i": "geographie--flamands",
+"n": "Flamands",
+"c": "Géographie",
+"gps": [
+17.91881,
+-62.857
+]
+},
+{
+"i": "geographie--grand-cul-de-sac",
+"n": "Grand Cul-de-Sac",
+"c": "Géographie",
+"gps": [
+17.90721,
+-62.80152
+]
+},
+{
+"i": "geographie--grand-fond",
+"n": "Grand Fond",
+"c": "Géographie",
+"gps": [
+17.89134,
+-62.81171
+]
+},
+{
+"i": "geographie--grande-saline",
+"n": "Grande Saline",
+"c": "Géographie",
+"gps": [
+17.8909,
+-62.82308
+]
+},
+{
+"i": "geographie--grande-vigie",
+"n": "Grande Vigie",
+"c": "Géographie",
+"gps": [
+17.91241,
+-62.86091
+]
+},
+{
+"i": "geographie--gouverneur",
+"n": "Gouverneur",
+"c": "Géographie",
+"gps": [
+17.88536,
+-62.83518
+]
+},
+{
+"i": "geographie--gustavia",
+"n": "Gustavia",
+"c": "Géographie",
+"gps": [
+17.89794,
+-62.84987
+]
+},
+{
+"i": "geographie--la-grande-montagne",
+"n": "La Grande Montagne",
+"c": "Géographie",
+"gps": [
+17.91646,
+-62.85251
+]
+},
+{
+"i": "geographie--la-pointe",
+"n": "La Pointe",
+"c": "Géographie",
+"gps": [
+17.8976,
+-62.853
+]
+},
+{
+"i": "geographie--le-chateau",
+"n": "Le Château",
+"c": "Géographie",
+"gps": [
+17.90816,
+-62.84522
+]
+},
+{
+"i": "geographie--le-palidor",
+"n": "Le Palidor",
+"c": "Géographie",
+"gps": [
+17.91167,
+-62.85084
+]
+},
+{
+"i": "geographie--lorient",
+"n": "Lorient",
+"c": "Géographie",
+"gps": [
+17.90629,
+-62.82581
+]
+},
+{
+"i": "geographie--lurin",
+"n": "Lurin",
+"c": "Géographie",
+"gps": [
+17.89171,
+-62.84065
+]
+},
+{
+"i": "geographie--marigot",
+"n": "Marigot",
+"c": "Géographie",
+"gps": [
+17.90917,
+-62.8104
+]
+},
+{
+"i": "geographie--merlette",
+"n": "Merlette",
+"c": "Géographie",
+"gps": [
+17.91592,
+-62.85231
+]
+},
+{
+"i": "geographie--mont-jean",
+"n": "Mont Jean",
+"c": "Géographie",
+"gps": [
+17.91467,
+-62.81081
+]
+},
+{
+"i": "geographie--morne-criquet",
+"n": "Morne Criquet",
+"c": "Géographie",
+"gps": [
+17.90324,
+-62.82816
+]
+},
+{
+"i": "geographie--morne-de-depoudre",
+"n": "Morne de Dépoudré",
+"c": "Géographie",
+"gps": [
+17.89652,
+-62.83291
+]
+},
+{
+"i": "geographie--morne-rouge",
+"n": "Morne Rouge",
+"c": "Géographie",
+"gps": [
+17.88491,
+-62.81221
+]
+},
+{
+"i": "geographie--petit-cul-de-sac",
+"n": "Petit Cul-de-Sac",
+"c": "Géographie",
+"gps": [
+17.90547,
+-62.7948
+]
+},
+{
+"i": "geographie--petite-saline",
+"n": "Petite Saline",
+"c": "Géographie",
+"gps": [
+17.90064,
+-62.82189
+]
+},
+{
+"i": "geographie--pointe-milou",
+"n": "Pointe Milou",
+"c": "Géographie",
+"gps": [
+17.91468,
+-62.81536
+]
+},
+{
+"i": "geographie--public",
+"n": "Public",
+"c": "Géographie",
+"gps": [
+17.90544,
+-62.85116
+]
+},
+{
+"i": "geographie--quartier-du-roi",
+"n": "Quartier du Roi",
+"c": "Géographie",
+"gps": [
+17.9085,
+-62.8437
+]
+},
+{
+"i": "geographie--saint-jean",
+"n": "Saint-Jean",
+"c": "Géographie",
+"gps": [
+17.90172,
+-62.83746
+]
+},
+{
+"i": "geographie--terre-neuve",
+"n": "Terre Neuve",
+"c": "Géographie",
+"gps": [
+17.91474,
+-62.85521
+]
+},
+{
+"i": "geographie--toiny",
+"n": "Toiny",
+"c": "Géographie",
+"gps": [
+17.89881,
+-62.79886
+]
+},
+{
+"i": "geographie--vitet",
+"n": "Vitet",
+"c": "Géographie",
+"gps": [
+17.90373,
+-62.81217
+]
+},
+{
+"i": "geographie--anse-de-grand-cul-de-sac",
+"n": "Anse de Grand Cul-de-Sac",
+"c": "Géographie",
+"gps": [
+17.91041,
+-62.80135
+]
+},
+{
+"i": "geographie--ile-chevreau-bonhomme",
+"n": "Île Chevreau (Bonhomme)",
+"c": "Géographie",
+"gps": [
+17.93351,
+-62.85099
+]
+},
+{
+"i": "geographie--ile-fregate",
+"n": "Île Frégate",
+"c": "Géographie",
+"gps": [
+17.93952,
+-62.83395
+]
+},
+{
+"i": "geographie--pain-de-sucre",
+"n": "Pain de Sucre",
+"c": "Géographie",
+"gps": [
+17.89711,
+-62.87657
+]
+},
+{
+"i": "geographie--la-tortue",
+"n": "La Tortue",
+"c": "Géographie",
+"gps": [
+17.9195,
+-62.79826
+]
+},
+{
+"i": "geographie--le-boulanger",
+"n": "Le Boulanger",
+"c": "Géographie",
+"gps": [
+17.95623,
+-62.86737
+]
+},
+{
+"i": "geographie--les-grenadins",
+"n": "Les Grenadins",
+"c": "Géographie",
+"gps": [
+17.92366,
+-62.79513
+]
+},
+{
+"i": "geographie--coco",
+"n": "Coco",
+"c": "Géographie",
+"gps": [
+17.8737,
+-62.81258
+]
+},
+{
+"i": "geographie--pele",
+"n": "Pelé",
+"c": "Géographie",
+"gps": [
+17.95582,
+-62.87264
+]
+},
+{
+"i": "geographie--petit-jean",
+"n": "Petit Jean",
+"c": "Géographie",
+"gps": [
+17.92053,
+-62.87607
+]
+},
+{
+"i": "plages--saline-grande-saline",
+"n": "Saline (Grande Saline)",
+"c": "Plages",
+"gps": [
+17.8873,
+-62.82265
+]
+},
+{
+"i": "plages--gouverneur",
+"n": "Gouverneur",
+"c": "Plages",
+"gps": [
+17.88491,
+-62.83337
+]
+},
+{
+"i": "plages--colombier",
+"n": "Colombier",
+"c": "Plages",
+"gps": [
+17.9232,
+-62.8683
+]
+},
+{
+"i": "plages--flamands",
+"n": "Flamands",
+"c": "Plages",
+"gps": [
+17.919,
+-62.85605
+]
+},
+{
+"i": "plages--saint-jean",
+"n": "Saint-Jean",
+"c": "Plages",
+"gps": [
+17.90509,
+-62.84076
+]
+},
+{
+"i": "plages--shell-beach-anse-de-grand-galet",
+"n": "Shell Beach (Anse de Grand Galet)",
+"c": "Plages",
+"gps": [
+17.89273,
+-62.84828
+]
+},
+{
+"i": "plages--grand-cul-de-sac",
+"n": "Grand Cul-de-Sac",
+"c": "Plages",
+"gps": [
+17.90946,
+-62.80303
+]
+},
+{
+"i": "plages--petit-cul-de-sac",
+"n": "Petit Cul-de-Sac",
+"c": "Plages",
+"gps": [
+17.90598,
+-62.7968
+]
+},
+{
+"i": "plages--lorient",
+"n": "Lorient",
+"c": "Plages",
+"gps": [
+17.90764,
+-62.82183
+]
+},
+{
+"i": "plages--marigot",
+"n": "Marigot",
+"c": "Plages",
+"gps": [
+17.9101,
+-62.80783
+]
+},
+{
+"i": "plages--toiny",
+"n": "Toiny",
+"c": "Plages",
+"gps": [
+17.89695,
+-62.79852
+]
+},
+{
+"i": "plages--grand-fond",
+"n": "Grand Fond",
+"c": "Plages",
+"gps": [
+17.89152,
+-62.8089
+]
+},
+{
+"i": "plages--anse-des-cayes",
+"n": "Anse des Cayes",
+"c": "Plages",
+"gps": [
+17.91216,
+-62.84444
+]
+},
+{
+"i": "plages--corossol",
+"n": "Corossol",
+"c": "Plages",
+"gps": [
+17.90829,
+-62.85657
+]
+},
+{
+"i": "plages--public",
+"n": "Public",
+"c": "Plages",
+"gps": [
+17.90373,
+-62.85242
+]
+},
+{
+"i": "plages--petite-anse",
+"n": "Petite Anse",
+"c": "Plages",
+"gps": [
+17.92231,
+-62.86345
+]
+},
+{
+"i": "plages--anse-du-grand-fond-plage-de-toiny",
+"n": "Anse du Grand Fond / plage de Toiny",
+"c": "Plages",
+"gps": [
+17.89176,
+-62.80836
+]
+},
+{
+"i": "plages--ile-fourchue-mouillage",
+"n": "Île Fourchue (mouillage)",
+"c": "Plages",
+"gps": [
+17.95597,
+-62.90075
+]
+},
+{
+"i": "sites-patrimoine--fort-gustave-et-son-phare",
+"n": "Fort Gustave et son phare",
+"c": "Sites & patrimoine",
+"gps": [
+17.90133,
+-62.85208
+]
+},
+{
+"i": "sites-patrimoine--village-de-corossol",
+"n": "Village de Corossol",
+"c": "Sites & patrimoine",
+"gps": [
+17.90931,
+-62.85426
+]
+},
+{
+"i": "sites-patrimoine--patrimoine-suedois-de-gustavia",
+"n": "Patrimoine suédois de Gustavia",
+"c": "Sites & patrimoine",
+"gps": [
+17.89536,
+-62.84759
+]
+},
+{
+"i": "sites-patrimoine--eglise-notre-dame-de-l-assomption",
+"n": "Église Notre-Dame-de-l'Assomption",
+"c": "Sites & patrimoine",
+"gps": [
+17.89469,
+-62.84822
+]
+},
+{
+"i": "sites-patrimoine--eglise-de-lorient",
+"n": "Église de Lorient",
+"c": "Sites & patrimoine",
+"gps": [
+17.90541,
+-62.82373
+]
+},
+{
+"i": "sites-patrimoine--morne-du-vitet",
+"n": "Morne du Vitet",
+"c": "Sites & patrimoine",
+"gps": [
+17.89916,
+-62.80642
+]
+},
+{
+"i": "sites-patrimoine--belvedere-de-lurin",
+"n": "Belvédère de Lurin",
+"c": "Sites & patrimoine",
+"gps": [
+17.89191,
+-62.8362
+]
+},
+{
+"i": "sites-patrimoine--pointe-de-toiny",
+"n": "Pointe de Toiny",
+"c": "Sites & patrimoine",
+"gps": [
+17.89429,
+-62.79257
+]
+},
+{
+"i": "sites-patrimoine--col-de-la-tourmente",
+"n": "Col de la Tourmente",
+"c": "Sites & patrimoine",
+"gps": [
+17.90387,
+-62.84776
+]
+},
+{
+"i": "sites-patrimoine--anse-de-colombier-belvedere",
+"n": "Anse de Colombier (belvédère)",
+"c": "Sites & patrimoine",
+"gps": [
+17.9242,
+-62.87093
+]
+},
+{
+"i": "sites-patrimoine--piscines-naturelles-de-grand-fond",
+"n": "Piscines naturelles de Grand Fond",
+"c": "Sites & patrimoine",
+"gps": [
+17.88987,
+-62.80936
+]
+},
+{
+"i": "sites-patrimoine--piscines-naturelles-de-petit-cul-de-sac",
+"n": "Piscines naturelles de Petit Cul-de-Sac",
+"c": "Sites & patrimoine",
+"gps": [
+17.90738,
+-62.79005
+]
+},
+{
+"i": "sites-patrimoine--ile-fourchue",
+"n": "Île Fourchue",
+"c": "Sites & patrimoine",
+"gps": [
+17.95597,
+-62.90075
+]
+},
+{
+"i": "sites-patrimoine--ilets-fregate-et-toc-vers",
+"n": "Îlets Frégate et Toc Vers",
+"c": "Sites & patrimoine",
+"gps": [
+17.93951,
+-62.83501
+]
+},
+{
+"i": "sites-patrimoine--sentier-cotier-de-colombier",
+"n": "Sentier côtier de Colombier",
+"c": "Sites & patrimoine",
+"gps": [
+17.92107,
+-62.865
+]
+},
+{
+"i": "sites-patrimoine--ateliers-d-artisanat-de-corossol",
+"n": "Ateliers d'artisanat de Corossol",
+"c": "Sites & patrimoine",
+"gps": [
+17.90931,
+-62.85426
+]
+},
+{
+"i": "sites-patrimoine--le-carre-d-or-et-la-cour-vendome",
+"n": "Le Carré d'Or et La Cour Vendôme",
+"c": "Sites & patrimoine",
+"gps": [
+17.89887,
+-62.85015
+]
+},
+{
+"i": "sites-patrimoine--musee-territorial-wall-house-2",
+"n": "Musée territorial Wall House",
+"c": "Sites & patrimoine",
+"gps": [
+17.89826,
+-62.85214
+]
+},
+{
+"i": "sites-patrimoine--musee-du-brigantin-2",
+"n": "Musée du Brigantin",
+"c": "Sites & patrimoine",
+"gps": [
+17.89524,
+-62.85037
+]
+},
+{
+"i": "sites-patrimoine--musee-international-du-coquillage-2",
+"n": "Musée international du Coquillage",
+"c": "Sites & patrimoine",
+"gps": [
+17.90931,
+-62.85426
+]
+},
+{
+"i": "sites-patrimoine--fort-karl-fort-carl-2",
+"n": "Fort Karl (Fort Carl)",
+"c": "Sites & patrimoine",
+"gps": [
+17.89305,
+-62.84973
+]
+},
+{
+"i": "sites-patrimoine--fort-gustave-phare-de-gustavia",
+"n": "Fort Gustave / Phare de Gustavia",
+"c": "Sites & patrimoine",
+"gps": [
+17.90133,
+-62.85208
+]
+},
+{
+"i": "sites-patrimoine--fort-oscar-2",
+"n": "Fort Oscar",
+"c": "Sites & patrimoine",
+"gps": [
+17.89722,
+-62.85345
+]
+},
+{
+"i": "sites-patrimoine--chapelle-sainte-catherine-de-sienne-2",
+"n": "Chapelle Sainte-Catherine de Sienne",
+"c": "Sites & patrimoine",
+"gps": [
+17.91208,
+-62.85314
+]
+},
+{
+"i": "sites-patrimoine--eglise-anglicane-st-bartholomew-s-2",
+"n": "Église anglicane St Bartholomew's",
+"c": "Sites & patrimoine",
+"gps": [
+17.89536,
+-62.8485
+]
+},
+{
+"i": "sites-patrimoine--temple-evangelique",
+"n": "Temple évangélique",
+"c": "Sites & patrimoine",
+"gps": [
+17.89611,
+-62.85165
+]
+},
+{
+"i": "sites-patrimoine--patrimoine-suedois",
+"n": "Patrimoine suédois",
+"c": "Sites & patrimoine",
+"gps": [
+17.89536,
+-62.84759
+]
+},
+{
+"i": "sites-patrimoine--presbytere",
+"n": "Presbytère de Gustavia",
+"c": "Sites & patrimoine",
+"gps": [
+17.89439,
+-62.84796
+]
+},
+{
+"i": "sites-patrimoine--eglise-evangelique-de-st-barth",
+"n": "Église Evangelique de St-Barth",
+"c": "Sites & patrimoine",
+"gps": [
+17.89611,
+-62.85165
+]
+},
+{
+"i": "sites-patrimoine--musee-territorial",
+"n": "Musée Territorial",
+"c": "Sites & patrimoine",
+"gps": [
+17.89826,
+-62.85214
+]
+},
+{
+"i": "geographie--cimetiere-de-saint-jean",
+"n": "Cimetière de Saint-Jean",
+"c": "Géographie",
+"gps": [
+17.90382,
+-62.84149
+]
+},
+{
+"i": "geographie--cimetiere-de-lorient",
+"n": "Cimetière de Lorient",
+"c": "Géographie",
+"gps": [
+17.90603,
+-62.82432
+]
+},
+{
+"i": "geographie--cimetiere-de-public",
+"n": "Cimetière de Public",
+"c": "Géographie",
+"gps": [
+17.90446,
+-62.85274
+]
+},
+{
+"i": "geographie--plage-grand-saline",
+"n": "Plage Grand Saline",
+"c": "Géographie",
+"gps": [
+17.88999,
+-62.82236
+]
+},
+{
+"i": "geographie--pointe-a-etages",
+"n": "Pointe à Étages",
+"c": "Géographie",
+"gps": [
+17.92163,
+-62.8505
+]
+},
+{
+"i": "geographie--pointe-a-colombier",
+"n": "Pointe à Colombier",
+"c": "Géographie",
+"gps": [
+17.92718,
+-62.87249
+]
+},
+{
+"i": "geographie--grande-pointe",
+"n": "Grande Pointe",
+"c": "Géographie",
+"gps": [
+17.87876,
+-62.83701
+]
+},
+{
+"i": "geographie--pointe-du-gouverneur",
+"n": "Pointe du Gouverneur",
+"c": "Géographie",
+"gps": [
+17.8804,
+-62.82781
+]
+},
+{
+"i": "sites-patrimoine--point-de-vue-de-colombier",
+"n": "Point de vue de Colombier",
+"c": "Sites & patrimoine",
+"gps": [
+17.91913,
+-62.86593
+]
+},
+{
+"i": "sites-patrimoine--town-major-house",
+"n": "Town Major House",
+"c": "Sites & patrimoine",
+"gps": [
+17.89775,
+-62.84897
+]
+},
+{
+"i": "sites-patrimoine--ancien-four",
+"n": "Ancien four",
+"c": "Sites & patrimoine",
+"gps": [
+17.89494,
+-62.85039
+]
+},
+{
+"i": "sites-patrimoine--ancienne-citerne",
+"n": "Ancienne citerne",
+"c": "Sites & patrimoine",
+"gps": [
+17.89525,
+-62.85096
+]
+},
+{
+"i": "sites-patrimoine--monument-aux-morts",
+"n": "Monument aux morts",
+"c": "Sites & patrimoine",
+"gps": [
+17.89785,
+-62.85272
+]
+},
+{
+"i": "geographie--anse-de-chauvette",
+"n": "Anse de Chauvette",
+"c": "Géographie",
+"gps": [
+17.883,
+-62.82621
+]
+},
+{
+"i": "geographie--anse-gros-jean",
+"n": "Anse Gros Jean",
+"c": "Géographie",
+"gps": [
+17.91898,
+-62.87083
+]
+},
+{
+"i": "geographie--anse-de-gascon",
+"n": "Anse de Gascon",
+"c": "Géographie",
+"gps": [
+17.91397,
+-62.86735
+]
+},
+{
+"i": "geographie--anse-de-reine",
+"n": "Anse de Reine",
+"c": "Géographie",
+"gps": [
+17.90921,
+-62.86237
+]
+},
+{
+"i": "geographie--anse-paschal",
+"n": "Anse Paschal",
+"c": "Géographie",
+"gps": [
+17.92487,
+-62.86709
+]
+},
+{
+"i": "geographie--anse-a-galets",
+"n": "Anse à Galets",
+"c": "Géographie",
+"gps": [
+17.91888,
+-62.84701
+]
+},
+{
+"i": "geographie--anse-marechal",
+"n": "Anse Maréchal",
+"c": "Géographie",
+"gps": [
+17.91362,
+-62.80429
+]
+},
+{
+"i": "geographie--pointe-mangin",
+"n": "Pointe Mangin",
+"c": "Géographie",
+"gps": [
+17.91776,
+-62.80849
+]
+},
+{
+"i": "sites-patrimoine--johnny-hallyday",
+"n": "Johnny Hallyday",
+"c": "Sites & patrimoine",
+"gps": [
+17.90608,
+-62.82447
+]
+},
+{
+"i": "sites-patrimoine--maison-dinzey",
+"n": "Maison Dinzey",
+"c": "Sites & patrimoine",
+"gps": [
+17.89517,
+-62.85044
+]
+},
+{
+"i": "sites-patrimoine--maison-des-gouverneurs-actuellement-hotel-de-ville-de-gustavia",
+"n": "Maison des Gouverneurs, actuellement hôtel de ville de Gustavia",
+"c": "Sites & patrimoine",
+"gps": [
+17.89832,
+-62.84934
+]
+},
+{
+"i": "sites-patrimoine--aux-victimes-de-l-accident-de-l-avion-twin-otter",
+"n": "Aux victimes de l'accident de l'avion Twin Otter",
+"c": "Sites & patrimoine",
+"gps": [
+17.90652,
+-62.85206
+]
+},
+{
+"i": "sites-patrimoine--savaku",
+"n": "Savaku",
+"c": "Sites & patrimoine",
+"gps": [
+17.9041,
+-62.84798
+]
+},
+{
+"i": "geographie--pointe-lezarde",
+"n": "Pointe Lézarde",
+"c": "Géographie",
+"gps": [
+17.91685,
+-62.84487
+]
+},
+{
+"i": "geographie--pointe-du-precipice",
+"n": "Pointe du Précipice",
+"c": "Géographie",
+"gps": [
+17.90635,
+-62.85547
+]
+},
+{
+"i": "geographie--pointe-de-negre",
+"n": "Pointe de Nègre",
+"c": "Géographie",
+"gps": [
+17.8802,
+-62.83992
+]
+},
+{
+"i": "sites-patrimoine--grotte-mobars",
+"n": "Grotte Mobars",
+"c": "Sites & patrimoine",
+"gps": [
+17.88162,
+-62.83635
+]
+},
+{
+"i": "sites-patrimoine--memorial-aux-suedois",
+"n": "Mémorial aux Suédois",
+"c": "Sites & patrimoine",
+"gps": [
+17.90408,
+-62.85238
+]
+},
+{
+"i": "geographie--anse-petit-galet",
+"n": "Anse Petit Galet",
+"c": "Géographie",
+"gps": [
+17.89305,
+-62.85114
+]
+},
+{
+"i": "geographie--col-tourterelle",
+"n": "Col Tourterelle",
+"c": "Géographie",
+"gps": [
+17.8932,
+-62.83291
+]
+},
+{
+"i": "sites-patrimoine--mont-exibard",
+"n": "Mont Exibard",
+"c": "Sites & patrimoine",
+"gps": [
+17.9587,
+-62.90874
+]
+},
+{
+"i": "geographie--ilot-sud-de-l-ile-coco",
+"n": "Îlot Sud de l'Île Coco",
+"c": "Géographie",
+"gps": [
+17.87117,
+-62.81143
+]
+},
+{
+"i": "geographie--les-petits-saints",
+"n": "Les Petits Saints",
+"c": "Géographie",
+"gps": [
+17.89483,
+-62.85633
+]
+},
+{
+"i": "geographie--table-rock",
+"n": "Table Rock",
+"c": "Géographie",
+"gps": [
+17.9736,
+-62.92583
+]
+},
+{
+"i": "geographie--roches-roubes-est",
+"n": "Roches Roubes Est",
+"c": "Géographie",
+"gps": [
+17.87217,
+-62.79729
+]
+},
+{
+"i": "geographie--roches-roubes-sud",
+"n": "Roches Roubes Sud",
+"c": "Géographie",
+"gps": [
+17.87175,
+-62.79776
+]
+},
+{
+"i": "geographie--les-baleines-de-grand-fond",
+"n": "Les Baleines de Grand Fond",
+"c": "Géographie",
+"gps": [
+17.88398,
+-62.80503
+]
+},
+{
+"i": "geographie--fourmis",
+"n": "Fourmis",
+"c": "Géographie",
+"gps": [
+17.88002,
+-62.80638
+]
+},
+{
+"i": "sites-patrimoine--square-de-la-retrocession",
+"n": "Square de la Rétrocession",
+"c": "Sites & patrimoine",
+"gps": [
+17.89551,
+-62.8489
+]
+},
+{
+"i": "sites-patrimoine--vestiges-suedois",
+"n": "Vestiges suédois",
+"c": "Sites & patrimoine",
+"gps": [
+17.89492,
+-62.8496
+]
+},
+{
+"i": "geographie--la-petite-islette",
+"n": "La Petite Islette",
+"c": "Géographie",
+"gps": [
+17.9567,
+-62.91091
+]
+},
+{
+"i": "geographie--ilet-au-vent",
+"n": "Îlet au Vent",
+"c": "Géographie",
+"gps": [
+17.95702,
+-62.89653
+]
+},
+{
+"i": "geographie--parvis-de-la-collectivite",
+"n": "Parvis de la Collectivité",
+"c": "Géographie",
+"gps": [
+17.89853,
+-62.85259
+]
+},
+{
+"i": "geographie--espace-rockfeller",
+"n": "Espace Rockfeller",
+"c": "Géographie",
+"gps": [
+17.89668,
+-62.85125
+]
+},
+{
+"i": "geographie--place-vanadis",
+"n": "Place Vanadis",
+"c": "Géographie",
+"gps": [
+17.89837,
+-62.852
+]
+},
+{
+"i": "geographie--anse-de-lorient",
+"n": "Anse de Lorient",
+"c": "Géographie",
+"gps": [
+17.90847,
+-62.82396
+]
+},
+{
+"i": "geographie--anse-de-grande-saline",
+"n": "Anse de Grande Saline",
+"c": "Géographie",
+"gps": [
+17.88521,
+-62.82087
+]
+},
+{
+"i": "geographie--anse-de-marigot",
+"n": "Anse de Marigot",
+"c": "Géographie",
+"gps": [
+17.91196,
+-62.80796
+]
+},
+{
+"i": "geographie--anse-du-petit-cul-de-sac",
+"n": "Anse du Petit Cul-de-Sac",
+"c": "Géographie",
+"gps": [
+17.90693,
+-62.79568
+]
+},
+{
+"i": "geographie--anse-de-public",
+"n": "Anse de Public",
+"c": "Géographie",
+"gps": [
+17.90373,
+-62.85407
+]
+},
+{
+"i": "geographie--anse-a-corossol",
+"n": "Anse à Corossol",
+"c": "Géographie",
+"gps": [
+17.90741,
+-62.85718
+]
+},
+{
+"i": "geographie--pointe-lorient",
+"n": "Pointe Lorient",
+"c": "Géographie",
+"gps": [
+17.91937,
+-62.81465
+]
+},
+{
+"i": "geographie--pointe-a-corossol",
+"n": "Pointe à Corossol",
+"c": "Géographie",
+"gps": [
+17.90785,
+-62.86072
+]
+},
+{
+"i": "sites-patrimoine--morne-de-grand-fond",
+"n": "Morne de Grand Fond",
+"c": "Sites & patrimoine",
+"gps": [
+17.89587,
+-62.81785
+]
+}
+]

@@ -1,0 +1,22 @@
+{
+  "id": "ce-soir",
+  "question": "On fait quoi ce soir ?",
+  "theme": "dark",
+  "statut_avant": "En ligne",
+  "statut_apres": "En ligne",
+  "horloge_appareil": {
+    "fuseau": "America/St_Barthelemy",
+    "date": "Fri Nov 06 2026 09:48:27 GMT-0400 (heure normale de l’Atlantique)",
+    "ile": {
+      "horloge": "09h48",
+      "jour": "vendredi"
+    },
+    "vous": {
+      "horloge": "09h48",
+      "jour": "vendredi"
+    }
+  },
+  "images": 354,
+  "ralenti": 4,
+  "quand": "2026-11-06T13:48:27.453Z"
+}
