@@ -3,8 +3,20 @@
   "question": "On fait quoi ce soir ?",
   "theme": "dark",
   "statut_avant": "En ligne",
-  "statut_apres": "En ligne",
-  "images": 336,
+  "statut_apres": "Mode local",
+  "horloge_appareil": {
+    "fuseau": "America/St_Barthelemy",
+    "date": "Thu Nov 12 2026 14:06:55 GMT-0400 (heure normale de l’Atlantique)",
+    "ile": {
+      "horloge": "14h06",
+      "jour": "jeudi"
+    },
+    "vous": {
+      "horloge": "14h06",
+      "jour": "jeudi"
+    }
+  },
+  "images": 284,
   "ralenti": 4,
-  "quand": "2026-11-06T13:43:06.752Z"
+  "quand": "2026-11-12T18:06:55.716Z"
 }

@@ -3,7 +3,20 @@
   "question": "Un resto ouvert dimanche midi à Gustavia ?",
   "theme": "light",
   "statut_avant": "En ligne",
-  "statut_apres": "En ligne",
-  "images": 279,
-  "quand": "2026-11-06T13:40:38.744Z"
+  "statut_apres": "Mode local",
+  "horloge_appareil": {
+    "fuseau": "America/St_Barthelemy",
+    "date": "Thu Nov 12 2026 14:15:19 GMT-0400 (heure normale de l’Atlantique)",
+    "ile": {
+      "horloge": "14h15",
+      "jour": "jeudi"
+    },
+    "vous": {
+      "horloge": "14h15",
+      "jour": "jeudi"
+    }
+  },
+  "images": 342,
+  "ralenti": 4,
+  "quand": "2026-11-12T18:15:19.535Z"
 }

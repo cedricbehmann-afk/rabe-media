@@ -3,20 +3,20 @@
   "question": "Une plage calme sans vent aujourd'hui ?",
   "theme": "light",
   "statut_avant": "En ligne",
-  "statut_apres": "En ligne",
+  "statut_apres": "Mode local",
   "horloge_appareil": {
     "fuseau": "America/St_Barthelemy",
-    "date": "Fri Nov 06 2026 10:38:56 GMT-0400 (heure normale de l’Atlantique)",
+    "date": "Thu Nov 12 2026 14:00:06 GMT-0400 (heure normale de l’Atlantique)",
     "ile": {
-      "horloge": "10h38",
-      "jour": "vendredi"
+      "horloge": "14h00",
+      "jour": "jeudi"
     },
     "vous": {
-      "horloge": "10h38",
-      "jour": "vendredi"
+      "horloge": "14h00",
+      "jour": "jeudi"
     }
   },
-  "images": 433,
+  "images": 334,
   "ralenti": 4,
-  "quand": "2026-11-06T14:38:56.613Z"
+  "quand": "2026-11-12T18:00:06.123Z"
 }

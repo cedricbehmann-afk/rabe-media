@@ -3,20 +3,20 @@
   "question": "La plage de Colombier, c'est comment ?",
   "theme": "light",
   "statut_avant": "En ligne",
-  "statut_apres": "En ligne",
+  "statut_apres": "Mode local",
   "horloge_appareil": {
     "fuseau": "America/St_Barthelemy",
-    "date": "Fri Nov 06 2026 10:41:41 GMT-0400 (heure normale de l’Atlantique)",
+    "date": "Thu Nov 12 2026 14:02:45 GMT-0400 (heure normale de l’Atlantique)",
     "ile": {
-      "horloge": "10h41",
-      "jour": "vendredi"
+      "horloge": "14h02",
+      "jour": "jeudi"
     },
     "vous": {
-      "horloge": "10h41",
-      "jour": "vendredi"
+      "horloge": "14h02",
+      "jour": "jeudi"
     }
   },
-  "images": 398,
+  "images": 328,
   "ralenti": 4,
-  "quand": "2026-11-06T14:41:41.662Z"
+  "quand": "2026-11-12T18:02:45.644Z"
 }
