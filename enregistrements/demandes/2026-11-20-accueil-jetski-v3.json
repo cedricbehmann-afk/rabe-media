@@ -1,0 +1,4 @@
+[
+  { "id": "accueil-jetski", "accueil": true, "question": "Où faire du jet-ski à Saint-Barth ?", "theme": "light" },
+  { "id": "accueil-week-end", "accueil": true, "exemple": "Que faire ce week-end", "theme": "light" }
+]
