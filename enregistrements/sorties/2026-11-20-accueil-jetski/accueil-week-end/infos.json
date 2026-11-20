@@ -1,0 +1,11 @@
+{
+  "id": "accueil-week-end",
+  "accueil": true,
+  "exemple": "Que faire ce week-end",
+  "theme": "light",
+  "mode": "accueil",
+  "statut_apres": "Mode local · accès à renouveler",
+  "images": 218,
+  "ralenti": 4,
+  "quand": "2026-11-20T23:42:46.169Z"
+}
