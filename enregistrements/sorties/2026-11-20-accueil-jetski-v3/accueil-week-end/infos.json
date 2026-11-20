@@ -1,0 +1,11 @@
+{
+  "id": "accueil-week-end",
+  "accueil": true,
+  "exemple": "Que faire ce week-end",
+  "theme": "light",
+  "mode": "accueil",
+  "statut_apres": "En ligne",
+  "images": 223,
+  "ralenti": 4,
+  "quand": "2026-11-20T23:57:48.971Z"
+}
