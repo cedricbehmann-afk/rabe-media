@@ -16,6 +16,9 @@ async function une(b, d) {
   await pause(1500);
   await p.getByRole('button', { name: 'Français' }).first().click().catch(() => {});
   await pause(400);
+  // « accueil » (20/11/2026) : la question est posée depuis l'écran d'accueil, comme quelqu'un qui
+  // vient de scanner un sticker (champ #accueil-champ, ou un exemple touché si d.exemple est donné).
+  if (d.accueil) return depuisAccueil(p, ctx, d, dir);
   await p.click('#qr-enter').catch(() => {});
   await pause(2500);
   const passer = await p.$('#logement-q-passe'); if (passer && await passer.isVisible()) { await passer.click(); await pause(600); }
@@ -70,6 +73,47 @@ async function une(b, d) {
     execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', path.join(dir, 'liste.txt'), '-vf', 'fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p', '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', path.join(dir, 'ecran.mp4')]); }
   fs.rmSync(path.join(dir, 'frames'), { recursive: true, force: true }); try { fs.rmSync(path.join(dir, 'liste.txt')); } catch (e) {}
   console.log(d.id, '·', statut.trim(), '→', statutFin.trim(), '·', frames.length, 'images');
+  await ctx.close();
+}
+async function depuisAccueil(p, ctx, d, dir) {
+  const LENT = 4;
+  await p.evaluate(() => window.scrollTo(0, 0)); await pause(300);
+  const cdp = await ctx.newCDPSession(p); const frames = []; let filme = true;
+  await cdp.send('Animation.enable'); await cdp.send('Animation.setPlaybackRate', { playbackRate: 1 / LENT });
+  const boucle = (async () => { while (filme) { const t = Date.now() / 1000; try { const r = await cdp.send('Page.captureScreenshot', { format: 'jpeg', quality: 90, clip: { x: 0, y: 0, width: 393, height: 852, scale: 3 } }); frames.push({ t, data: r.data }); } catch (e) { await pause(50); } } })();
+  await pause(900 * LENT);
+  if (d.exemple) {
+    await p.locator('#accueil-exemples button', { hasText: d.exemple }).first().click();
+  } else {
+    await p.click('#accueil-champ');
+    await p.type('#accueil-champ', d.question, { delay: 55 * LENT });
+    await pause(400 * LENT);
+    await p.click('#accueil-demander');
+  }
+  const zone = () => p.evaluate(() => { const w = document.querySelector('#chat-welcome'); const c = w ? w.parentElement : document.body; return c.innerText; });
+  const t0 = Date.now(); let last = '', stable = 0, statut = '';
+  while (Date.now() - t0 < 40000) {
+    await pause(500);
+    const compris = p.getByRole('button', { name: /compris/i }).first(); if (await compris.isVisible().catch(() => false)) await compris.click().catch(() => {});
+    statut = (await p.textContent('#chat-status').catch(() => '')) || statut;
+    const z = await zone();
+    if (z.length > 60 && z === last) { stable += 500; if (stable >= 3000) break; } else stable = 0;
+    last = z;
+  }
+  await pause(2500 * LENT);
+  filme = false; await boucle;
+  await p.screenshot({ path: path.join(dir, 'final.png') });
+  const statutFin = (await p.textContent('#chat-status').catch(() => '')) || '';
+  fs.writeFileSync(path.join(dir, 'reponse.txt'), await zone());
+  fs.writeFileSync(path.join(dir, 'infos.json'), JSON.stringify({ ...d, mode: 'accueil', statut_apres: statutFin.trim(), images: frames.length, ralenti: LENT, quand: new Date().toISOString() }, null, 2));
+  let list = '';
+  frames.forEach((f, i) => { const fn = path.join(dir, 'frames', String(i).padStart(5, '0') + '.jpg'); fs.writeFileSync(fn, Buffer.from(f.data, 'base64'));
+    const dur = (i < frames.length - 1 ? Math.max(0.001, frames[i + 1].t - f.t) : 0.5 * LENT); list += `file '${path.resolve(fn)}'\nduration ${dur.toFixed(4)}\n`; });
+  if (frames.length) { list += `file '${path.resolve(path.join(dir, 'frames', String(frames.length - 1).padStart(5, '0') + '.jpg'))}'\n`;
+    fs.writeFileSync(path.join(dir, 'liste.txt'), list);
+    execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', path.join(dir, 'liste.txt'), '-vf', 'fps=30,scale=trunc(iw/2)*2:trunc(ih/2)*2,format=yuv420p', '-c:v', 'libx264', '-crf', '16', '-preset', 'medium', path.join(dir, 'ecran.mp4')]); }
+  fs.rmSync(path.join(dir, 'frames'), { recursive: true, force: true }); try { fs.rmSync(path.join(dir, 'liste.txt')); } catch (e) {}
+  console.log(d.id, '· accueil ·', statutFin.trim(), '·', frames.length, 'images');
   await ctx.close();
 }
 (async () => { fs.mkdirSync(outDir, { recursive: true }); const b = await chromium.launch();
